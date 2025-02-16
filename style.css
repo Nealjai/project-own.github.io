@@ -109,19 +109,27 @@ body,html{
     background: -o-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* IE10+ */
     background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* W3C */
+    display: inline-flex;
+    justify-content: center;
+
+}
+
+.footer{
+    font-size: 1rem;
+    font-weight: 300;
 }
 
 /***********************************************************************
  *  Blue Background
  **********************************************************************/
 .blue{
-    background: #7abcff; /* Old browsers */
-    background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* IE10+ */
-    background: linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */
+    background: rgb(44.7, 31, 78.8); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgb(44.7, 31, 78.8) 0%, #60abf8 44%, #4096ee 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgb(44.7, 31, 78.8)), color-stop(44%,#60abf8), color-stop(100%,#4096ee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgb(44.7, 31, 78.8)0%,#60abf8 44%,#4096ee 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgb(44.7, 31, 78.8) 0%,#60abf8 44%,#4096ee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgb(44.7, 31, 78.8)0%,#60abf8 44%,#4096ee 100%); /* IE10+ */
+    background: linear-gradient(top,  rgb(44.7, 31, 78.8) 0%,#60abf8 44%,#4096ee 100%); /* W3C */
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px,1fr));
     gap: 10px;
@@ -140,7 +148,7 @@ img {
     border-radius:4px;
     border:1px solid #bbb;
     transition: all 0.3s linear;
-    background: grey;
+    background: rgb(255, 252, 246);
     display: flex;
     justify-content: center;
     align-items: center;
